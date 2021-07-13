@@ -3,19 +3,11 @@
  *I pledge on my honor that I have not given or received any unauthorized
  *assistance on this assignment.
  *
- *The objective of this project is to work with files and input/output 
- *functions. In addition to that, working with process control, specifically
- *using fork to create a parent and child processes that can execute a command 
- *and check how the child process exited after executing the command. This 
- *project uses concepts of pointers and structures to make datastructures which
- *makes the code work the way it should. This project will work with reading in 
- *a file and extracting and organizing information into these datastructures
- *and accessed through various functions. The whole datastructure that contains
- *the other structures is called a forkfile which is a file that consists of
- *rules. Each rule has a target, its dependencies and an action line right below
- *it which compiles the file. A structure implemented in this file is the 
- *Target struct where each target has a name, a list of actions which forms the
- *action line and a list of dependencies. Each dependency and action word has
+ *The whole datastructure that contains the other structures is called a forkfile 
+ *which is a file that consists of rules. Each rule has a target, its dependencies 
+ *and an action line right below it which compiles the file. A structure implemented
+ *in this file is the Target struct where each target has a name, a list of actions which
+ *forms the action line and a list of dependencies. Each dependency and action word has
  *a "name" which just signifies that it's a word and both of these share a 
  *struct called Element to generalize that both can use this struct. Since there
  *may be multiple targets and/or dependencies and action words in the action
