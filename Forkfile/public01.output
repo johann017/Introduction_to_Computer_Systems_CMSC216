@@ -1,2 +1,0 @@
-main.x: main.o functions.o
-	gcc main.o functions.o -o main.x
