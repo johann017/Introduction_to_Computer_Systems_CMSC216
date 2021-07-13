@@ -2,10 +2,10 @@
 
 ## Setup
 To run `Forkfile` using sample tests:
-- 
+- `make all`
 
 To run `Graph` using sample tests:
-- 
+- `make all`
 
 To run `Threads` using sample tests:
 - `make all`
