@@ -1,10 +1,4 @@
-/*Johann Antisseril, johann, 116533928, 0207
- *
- *I pledge on my honor that I have not given or recieved any unauthorized
- *assistance on this assignment.
- *
- *The objective of this project is to understand how to work with linked list
- *in C. By using structures as the data structures named Node and
+/*By using structures as the data structures named Node and
  *Two_sided_queue, it is possible to link data together and be able to traverse
  *through it. By using pointers, each structure is linked together and with
  *each new structure added to this list, memory is allocated. Conversely, if
