@@ -1,9 +1,4 @@
-/*Johann Antisseril, johann, 116533928, 0207
- *
- *I pledge on my honor that I have not given or received any unauthorized
- *assistance on this assignment.
- *
- *The whole datastructure that contains the other structures is called a forkfile 
+/*The whole datastructure that contains the other structures is called a forkfile 
  *which is a file that consists of rules. Each rule has a target, its dependencies 
  *and an action line right below it which compiles the file. A structure implemented
  *in this file is the Target struct where each target has a name, a list of actions which
