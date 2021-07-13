@@ -1,21 +1,8 @@
-/*Johann Antisseril, johann, 116533928, 0207
- *
- *I pledge on my honor that I have not given or recieved any unauthorized
- *assistance on this assignment.
- *
- *The objective of this project was to solidify understanding of pointers,
- *structs, and linked list. This project creates a graph with vertices and 
- *connects vertices with edges that have costs or weights. This implementation
- *of a graph makes a directed, weighted graph using structs. The graph is made
- *up of list of vertices. Each vertex has a name and a list of edges which it 
- *has outgoing edges to. Each edge has a pointer to the vertex it is connecting
- *to and has a cost or a weight. To increase flexibility, a node is created
- *with a field void data to make it either an edge node or a vertex node. 
- *
- *The new part of this project was removing edges and vertics from the graph and
- *appropriately deallocating the memory space it previously held. In this 
- *project, a graph can be created, modified to add or removes vertices and
- *edges, and get and identify how many neighbors a given vertex has. 
+/*This implementation of a graph makes a directed, weighted graph using structs. 
+ *The graph is made up of list of vertices. Each vertex has a name and a list of
+ *edges which it has outgoing edges to. Each edge has a pointer to the vertex it 
+ *is connecting to and has a cost or a weight. To increase flexibility, a node is
+ *created with a field void data to make it either an edge node or a vertex node.
  */
 
 
