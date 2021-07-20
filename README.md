@@ -13,6 +13,7 @@
 ### `Two_Sided_Queue`
 - The objective of this project is to understand how to work with linked lists in C. It uses memory allocation and deallocation to add and remove elements in a list. It is able to add to the front and back of the queue and remove in a similar fashion.
 
+
 ## Setup
 - Install [GitHub CLI](https://cli.github.com/) and connect to GitHub account
 - Open Git CMD
